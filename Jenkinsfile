@@ -9,6 +9,7 @@ pipeline
     stage('envchdk'){
       steps{
         print "${Hello}"
+        print "${globag}"
         }
        }
       }
