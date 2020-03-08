@@ -8,7 +8,7 @@ pipeline
   stages{
     stage('envchdk'){
       steps{
-        print 'eppsdofgijh'
+        print "${Hello}"
         }
        }
       }
