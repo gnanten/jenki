@@ -20,6 +20,7 @@ pipeline
     {
       steps{
         print "${globag}" 
+        print "${Hello}"
       }
     }
       }
