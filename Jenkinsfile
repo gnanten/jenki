@@ -6,7 +6,7 @@ pipeline
     Hello='ezxtra'
   }
   stages{
-    stage{
+    stage('envchdk'){
       steps{
         sh 'printenv'
         }
